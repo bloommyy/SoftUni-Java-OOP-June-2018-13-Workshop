@@ -14,16 +14,18 @@ import battlegroundapp.*;
  */
 public class Carrier extends BaseUnit{
     //Constructor
-    public Carrier(String name, int range, int positionX, int positionY,
-        int healthPoints, int energyPoints, int attackPoints,
-        int defencePoints){
+    public Carrier(String name, int positionX, int positionY){
         super(name, 2, positionX, positionY, 50, 80, 15, 5);
     }
     
     @Override
     public String toString(){
         String msg;
-        msg = "name is " + this.name;
-        return name;
+        msg = this.name + " has a range of " + this.range + " and is on"
+                + " position (" + this.positionX + "," + this.positionY + ")."
+                + "It also has " + this.healthPoints + " hp, " 
+                + this.energyPoints + " energy points, " + this.attackPoints +
+                " attack points and " + this.defencePoints + " defence points.\n";
+        return msg;
     }
 }

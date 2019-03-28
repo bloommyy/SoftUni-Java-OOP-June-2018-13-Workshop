@@ -3,13 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/user/Documents/Преслав%2011А/BattlegroundApp/src/Unit/Unit.java</file>
-            <file>file:/C:/Users/user/Documents/Преслав%2011А/BattlegroundApp/src/battlegroundapp/BattlegroundApp.java</file>
-            <file>file:/C:/Users/user/Documents/Преслав%2011А/BattlegroundApp/src/Battleground/Battleground.java</file>
-            <file>file:/C:/Users/user/Documents/Преслав%2011А/BattlegroundApp/src/Unit/BaseUnit.java</file>
-            <file>file:/C:/Users/user/Documents/Преслав%2011А/BattlegroundApp/src/Battleground/battleground_1.java</file>
-            <file>file:/C:/Users/user/Documents/Преслав%2011А/BattlegroundApp/src/Unit/Marine.java</file>
-            <file>file:/C:/Users/user/Documents/Преслав%2011А/BattlegroundApp/src/Unit/Carrier.java</file>
+            <file>file:/C:/Users/user/Documents/Преслав%2011А/BtgroundApp/SoftUni-Java-OOP-June-2018-13-Workshop/src/Spell/Spell.java</file>
+            <file>file:/C:/Users/user/Documents/Преслав%2011А/BtgroundApp/SoftUni-Java-OOP-June-2018-13-Workshop/src/Unit/Marine.java</file>
+            <file>file:/C:/Users/user/Documents/Преслав%2011А/BtgroundApp/SoftUni-Java-OOP-June-2018-13-Workshop/src/Battleground/BattlegroundImpl.java</file>
+            <file>file:/C:/Users/user/Documents/Преслав%2011А/BtgroundApp/SoftUni-Java-OOP-June-2018-13-Workshop/src/Spell/RageShoot.java</file>
+            <file>file:/C:/Users/user/Documents/Преслав%2011А/BtgroundApp/SoftUni-Java-OOP-June-2018-13-Workshop/src/Battleground/Battleground.java</file>
+            <file>file:/C:/Users/user/Documents/Преслав%2011А/BtgroundApp/SoftUni-Java-OOP-June-2018-13-Workshop/src/Spell/BaseSpell.java</file>
+            <file>file:/C:/Users/user/Documents/Преслав%2011А/BtgroundApp/SoftUni-Java-OOP-June-2018-13-Workshop/src/Unit/Carrier.java</file>
+            <file>file:/C:/Users/user/Documents/Преслав%2011А/BtgroundApp/SoftUni-Java-OOP-June-2018-13-Workshop/src/CombatHandler/CarrierCombatHandler.java</file>
+            <file>file:/C:/Users/user/Documents/Преслав%2011А/BtgroundApp/SoftUni-Java-OOP-June-2018-13-Workshop/src/CombatHandler/BaseCombatHandler.java</file>
+            <file>file:/C:/Users/user/Documents/Преслав%2011А/BtgroundApp/SoftUni-Java-OOP-June-2018-13-Workshop/src/Unit/BaseUnit.java</file>
+            <file>file:/C:/Users/user/Documents/Преслав%2011А/BtgroundApp/SoftUni-Java-OOP-June-2018-13-Workshop/src/Spell/BulletRain.java</file>
+            <file>file:/C:/Users/user/Documents/Преслав%2011А/BtgroundApp/SoftUni-Java-OOP-June-2018-13-Workshop/src/battlegroundapp/Main.java</file>
         </group>
     </open-files>
 </project-private>

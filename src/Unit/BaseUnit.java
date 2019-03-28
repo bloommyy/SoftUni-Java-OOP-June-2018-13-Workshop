@@ -102,7 +102,11 @@ public class BaseUnit implements Unit {
     @Override
     public String toString() {
         String msg;
-        msg = "Returns toString";
+        msg = this.name + " has a range of " + this.range + " and is on"
+                + " position (" + this.positionX + "," + this.positionY + ")."
+                + "It also has " + this.healthPoints + " hp, " 
+                + this.energyPoints + " energy points, " + this.attackPoints +
+                " attack points and " + this.defencePoints + " defence points.\n";
         return msg;
     }
 

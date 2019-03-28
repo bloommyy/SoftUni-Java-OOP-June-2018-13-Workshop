@@ -15,7 +15,13 @@ import java.util.List;
  */
 public class BattlegroundImpl implements Battleground {
 
-    private Unit[][] battleground;
+    private BaseUnit[][] battleground;
+
+    
+    //Constructor
+    public BattlegroundImpl(){
+        this.battleground = new BaseUnit[5][5];
+    }
 
     //Methods
     private void validatePosition(int x, int y) {
@@ -33,20 +39,30 @@ public class BattlegroundImpl implements Battleground {
 
     @Override
     public void add(BaseUnit BaseUnit) {
+        System.out.printf("%s has been added to the battleground with the coordinates of %d, %d!\n",
+                BaseUnit.getName(), BaseUnit.getPositionX(), BaseUnit.getPositionY());
         this.battleground[BaseUnit.getPositionX()][BaseUnit.getPositionY()]
                 = BaseUnit;
     }
 
     @Override
     public void remove(BaseUnit BaseUnit) {
+        System.out.printf("%s has been deleted from the battleground!\n",
+                BaseUnit.getName());
         this.battleground[BaseUnit.getPositionX()][BaseUnit.getPositionY()] = 
                 null;
+        BaseUnit = null;
+        
     }
 
     @Override
     public void move(BaseUnit BaseUnit, int x, int y) {
-        remove(BaseUnit);
+        this.battleground[BaseUnit.getPositionX()][BaseUnit.getPositionY()] = 
+                null;
         this.battleground[x][y] = BaseUnit;
         BaseUnit.setPosition(x, y);
+        System.out.printf("%s has been moved to %d, %d!\n",
+                BaseUnit.getName(), BaseUnit.getPositionX(),
+                BaseUnit.getPositionY());
     }
 }

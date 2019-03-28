@@ -13,9 +13,18 @@ import Unit.BaseUnit;
  */
 public class Marine extends BaseUnit{
     //Constructor
-    public Marine(String name, int range, int positionX, int positionY,
-        int healthPoints, int energyPoints, int attackPoints,
-        int defencePoints){
+    public Marine(String name, int positionX, int positionY){
         super(name, 1, positionX, positionY, 50, 80, 15, 5);
+    }
+    
+    @Override
+    public String toString(){
+        String msg;
+        msg = this.name + " has a range of " + this.range + " and is on"
+                + " position (" + this.positionX + "," + this.positionY + ")."
+                + "It also has " + this.healthPoints + " hp, " 
+                + this.energyPoints + " energy points, " + this.attackPoints +
+                " attack points and " + this.defencePoints + " defence points.\n";
+        return msg;
     }
 }

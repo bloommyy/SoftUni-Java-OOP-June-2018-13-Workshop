@@ -11,7 +11,7 @@ package Spell;
  */
 public class RageShoot extends BaseSpell{
     
-    public RageShoot(int dmg, int eC) {
+    public RageShoot(int dmg) {
         super(dmg, 10);
     }
     

@@ -10,5 +10,8 @@ package Spell;
  * @author student
  */
 public interface Spell {
-    
+
+    public int getDamage();
+
+    public int getEnergyCost();
 }

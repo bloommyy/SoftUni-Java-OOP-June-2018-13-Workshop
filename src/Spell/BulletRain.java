@@ -11,7 +11,7 @@ package Spell;
  */
 public class BulletRain extends BaseSpell{
     
-    public BulletRain(int dmg, int eC) {
+    public BulletRain(int dmg) {
         super(dmg, 15);
     }
     
